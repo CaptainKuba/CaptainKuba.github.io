@@ -64,12 +64,21 @@ html{
 body{
     color:#FFECD1;
     /*color:#FFFF;*/
-
+    text-align: center;
     font-family:"Lato", serif;
+    text-size-adjust:auto;
 }
-header{
-    color:#93827F;
+h1{
+    /*color:#93827F;*/
+    color:#CBBEBC;
+    text-size-adjust:auto;
 }
-text{
-    inherits:tru
+h2{
+  /*color:#CBBEBC;*/
+  color:#93827F;
+  text-size-adjust:auto;
+}
+hr{
+  width:50%;
+  align:center;
 }
