@@ -62,11 +62,14 @@ html{
     background-color:#001524;
 }
 body{
+    justify-content:center;
     color:#FFECD1;
     /*color:#FFFF;*/
-    text-align: center;
+    text-align: left;
     font-family:"Lato", serif;
     text-size-adjust:auto;
+    width:60%;
+    padding: 5% 20% 0 20%
 }
 h1{
     /*color:#93827F;*/
@@ -79,6 +82,15 @@ h2{
   text-size-adjust:auto;
 }
 hr{
-  width:50%;
+  width:100%;
   align:center;
+}
+a:link{
+  color:#77BFA0;
+}
+a:visited{
+  color: #74B3CE;
+}
+ul{
+  list-style-type:circle;
 }
