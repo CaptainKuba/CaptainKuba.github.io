@@ -4,9 +4,9 @@
 	<!-- handles  the embed-->
 	<meta property="og:title" content="kuba.moe"/>
 	<meta property="og:type" content="website"/>
-	<meta property="og:url" content="https://kuba.moe"/>
+	<meta property="og:url" content="https://kuba.moe/contact-form"/>
 	<meta property="og:image" content="/images/embed.png"/>
-	<meta property="og:description" content="personal info site for some fucking loser"/>
+	<meta property="og:description" content="contact form"/>
     <!-- stylesheet link-->
     <link rel="stylesheet" href="/style.css">	
 	<!-- loads fonts-->
@@ -14,22 +14,19 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="style">
 </head>
-<h1>
-	Intro
-</h1>
-<hr>
-<p>
-	Hi, I'm Kuba. I'm an undergraduate physics student that occasionally does stuff online. If you want to contact me please use <a href="/contact-form.html">this contact form</a>.
-</p>
-<br>
-<h1>
-	Various Links
-</h1>
-<hr>
-<p>
-	<ul>
-		<li><a href="https://bsky.app/profile/kuba.moe/">Bluesky</a></li>
-		<li><a href="https://steamcommunity.com/id/CaptainKuba/">Steam</a></li>
-	</ul>
-
-</p>
+<form
+  action="https://formspree.io/f/mannggkw"
+  method="POST"
+>
+  <label>
+    Your email:
+    <br>
+    <input type="email" name="email">
+  </label>
+  <br>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <button type="submit">Send</button>
+</form>
